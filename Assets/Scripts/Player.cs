@@ -6,7 +6,6 @@ public class Player : MonoBehaviour
 {
 	private Rigidbody body;
 	public GameManager gameManager;
-
 	public float speed = 3f;
 
 	private void Start()

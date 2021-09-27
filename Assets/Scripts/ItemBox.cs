@@ -5,9 +5,8 @@ using UnityEngine;
 public class ItemBox : MonoBehaviour
 {
 	private MeshRenderer renderer;
-
 	public bool isOverlaped = false;
-	public Color originalColor;
+	private Color originalColor;
 	public Color changedColor = Color.white;
 
 	private void Start()
